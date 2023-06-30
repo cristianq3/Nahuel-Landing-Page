@@ -2,6 +2,13 @@
     File Name: custom.js
 ---------------------------------------------------------------------*/
 
+var elements = document.getElementsByClassName('truncat-text');
+for (var i = 0; i < elements.length; i++) {
+  var text = elements[i].textContent;
+  var truncatedText = text.substring(0, 10) + '...'; // ajusta el número de caracteres según tus necesidades
+  elements[i].textContent = truncatedText;
+}
+
 
 $(function () {
 	
