@@ -79,13 +79,17 @@ File Name: responsive.css
     padding-top: 150px;
     height: 700px;
   }
+
+  .imgLogoNavbar { 
+    height: 100%!important;
+
+  }
+
+  
   .d_none {
     display: none;
   }
-  .logo {
-    text-align: left;
-    display: block;
-  }
+
   .banner_main .bluid h1 {
     font-size: 84px;
     line-height: 109px;
@@ -142,6 +146,12 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
+  .imgLogoNavbar { 
+    width: 200px;
+
+  }
+
+
   .header {
     padding: 37px 0px;
   }
