@@ -176,6 +176,14 @@ img {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
+.logoinicio {
+  max-height: 90px;
+  padding: 0px;
+  margin: 0px;
+  
+
+}
+
 .navbar-form input {
   border: none !important;
 }
@@ -205,19 +213,6 @@ button {
 
 .titlepage {
   padding-bottom: 60px;
-}
-
-.titlepage::before {
-  content: "";
-  position: absolute;
-  border: #fff solid 5px;
-  border-width: 5px;
-  width: 80px;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 55px;
 }
 
 .titlepage h2 {
@@ -528,6 +523,9 @@ ul.email li i {
   object-fit: cover;
   height: 100vh;
   padding: 90px 0;
+}
+.texto-about {
+  font-size: 3rem;
 }
 
 .about .titlepage::before {
@@ -841,7 +839,6 @@ ul.email li i {
   right: 37%;
 }
 
-
 #clientsl a.carousel-control-next:focus,
 #clientsl a.carousel-control-next:hover,
 #clientsl a.carousel-control-prev:focus,
@@ -860,6 +857,9 @@ ul.email li i {
   padding-top: 90px;
 }
 
+.logo_footer {filter: brightness(2.0) saturate(0.5); /* Ajusta los valores según tus necesidades */
+
+}
 .newslatter_form {
   display: flex;
   align-items: center;
@@ -982,6 +982,18 @@ ul.social_icon li a:hover {
 /** end footer **/
 
 /*  ACCORDIO PREGUNTAS FRECUENTES*/
+#accordionPreguntasFrecuentes {
+  width: 98%;
+  font-size: 1.5rem;
+}
+.accordion-item:after {
+  background-color: darkgray;
+  color: white;
+}
+
+.accordion-button {
+  font-size: 2rem;
+}
 
 /*- - ener page css--*/
 
