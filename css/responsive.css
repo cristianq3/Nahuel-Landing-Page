@@ -151,6 +151,12 @@ File Name: responsive.css
 
   }
 
+  .logo_footer {
+  
+
+    max-width: 69%;
+  }
+
 
   .header {
     padding: 37px 0px;

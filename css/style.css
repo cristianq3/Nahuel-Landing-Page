@@ -862,8 +862,10 @@ ul.email li i {
   padding-top: 90px;
 }
 
-.logo_footer {filter: brightness(2.0) saturate(0.5); /* Ajusta los valores según tus necesidades */
+.logo_footer {
+  
 
+  max-width: 400px;
 }
 .newslatter_form {
   display: flex;
