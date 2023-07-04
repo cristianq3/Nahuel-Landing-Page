@@ -1,6 +1,29 @@
 /*---------------------------------------------------------------------
     File Name: custom.js
 ---------------------------------------------------------------------*/
+// WHTSAPP MENSAJE DE CONTACTO
+
+function sendWhatsAppMessage() {
+	var name = document.getElementById("request").elements["name"].value;
+	var phone = document.getElementById("request").elements["phone"].value;
+	var email = document.getElementById("request").elements["email"].value;
+	var message = document.getElementById("request").elements["message"].value;
+  
+	var whatsappMessage = "¡Hola desde tu pagina web me quiero contactar!\n";
+	whatsappMessage += "Soy " + name + ",\n";
+	whatsappMessage += "Mi telefono es  " + phone + "\n";
+	whatsappMessage += "mi e-mail: " + email + "\n";
+	whatsappMessage += "Mensaje: " + message;
+  
+	var phoneNumber = "543855861884";
+  
+	var whatsappURL =
+	  "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(whatsappMessage);
+	window.open(whatsappURL);
+  }
+
+
+
 
 var elements = document.getElementsByClassName('truncat-text');
 for (var i = 0; i < elements.length; i++) {
