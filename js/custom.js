@@ -9,13 +9,13 @@ function sendWhatsAppMessage() {
 	var email = document.getElementById("request").elements["email"].value;
 	var message = document.getElementById("request").elements["message"].value;
   
-	var whatsappMessage = "¡Hola desde tu pagina web me quiero contactar!\n";
-	whatsappMessage += "Soy " + name + ",\n";
-	whatsappMessage += "Mi telefono es  " + phone + "\n";
-	whatsappMessage += "mi e-mail: " + email + "\n";
-	whatsappMessage += "Mensaje: " + message;
+	var whatsappMessage = "¡Hola me contacto desde tu pagina web!\n";
+	whatsappMessage += "*Soy* " + name + ",\n";
+	whatsappMessage += "*Mi telefono es*  " + phone + "\n";
+	whatsappMessage += "*Mi e-mail:* " + email + "\n";
+	whatsappMessage += "*Mensaje:*" + message;
   
-	var phoneNumber = "543855861884";
+	var phoneNumber = "543854167742";
   
 	var whatsappURL =
 	  "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(whatsappMessage);
