@@ -991,7 +991,7 @@ ul.social_icon li a:hover {
 /*  ACCORDIO PREGUNTAS FRECUENTES*/
 #accordionPreguntasFrecuentes {
   width: 98%;
-  font-size: 1.5rem;
+  font-size: 12px;
 }
 .accordion-item:after {
   background-color: darkgray;
@@ -999,7 +999,7 @@ ul.social_icon li a:hover {
 }
 
 .accordion-button {
-  font-size: 2rem;
+  font-size: 15px;
 }
 
 /*- - ener page css--*/
