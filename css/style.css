@@ -177,13 +177,25 @@ img {
 }
 
 .logoinicio {
+<<<<<<< HEAD
   max-height: 90px;
   padding: 0px;
+=======
+  max-height: 100%;
+  padding-bottom: px;
+>>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
   margin: 0px;
   
 
 }
 
+<<<<<<< HEAD
+=======
+.headerLogoBtns {
+  padding-bottom: 44px;
+}
+
+>>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
 .navbar-form input {
   border: none !important;
 }
@@ -303,7 +315,7 @@ header
   width: 100%;
   background: rgba(39, 43, 44, 0.87);
   height: 106px;
-  padding: 37px 30px;
+  padding: 39px 30px;
   position: absolute;
   z-index: 999;
   box-shadow: 3px 0 13px rgba(30, 30, 30, 0.9);
@@ -337,6 +349,7 @@ menu section
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
   color: #efe1e1;
 }
+
 
 .di_no {
   display: none;
@@ -857,8 +870,15 @@ ul.email li i {
   padding-top: 90px;
 }
 
+<<<<<<< HEAD
 .logo_footer {filter: brightness(2.0) saturate(0.5); /* Ajusta los valores según tus necesidades */
 
+=======
+.logo_footer {
+  
+
+  max-width: 400px;
+>>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
 }
 .newslatter_form {
   display: flex;
