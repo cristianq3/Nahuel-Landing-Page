@@ -79,6 +79,7 @@ File Name: responsive.css
     padding-top: 150px;
     height: 700px;
   }
+<<<<<<< HEAD
   .d_none {
     display: none;
   }
@@ -86,6 +87,19 @@ File Name: responsive.css
     text-align: left;
     display: block;
   }
+=======
+
+  .imgLogoNavbar { 
+    height: 100%!important;
+
+  }
+
+  
+  .d_none {
+    display: none;
+  }
+
+>>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
   .banner_main .bluid h1 {
     font-size: 84px;
     line-height: 109px;
@@ -142,6 +156,21 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
+<<<<<<< HEAD
+=======
+  .imgLogoNavbar { 
+    width: 200px;
+
+  }
+
+  .logo_footer {
+  
+
+    max-width: 69%;
+  }
+
+
+>>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
   .header {
     padding: 37px 0px;
   }
