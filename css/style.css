@@ -177,25 +177,17 @@ img {
 }
 
 .logoinicio {
-<<<<<<< HEAD
   max-height: 90px;
   padding: 0px;
-=======
-  max-height: 100%;
-  padding-bottom: px;
->>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
   margin: 0px;
   
 
 }
 
-<<<<<<< HEAD
-=======
 .headerLogoBtns {
   padding-bottom: 44px;
 }
 
->>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
 .navbar-form input {
   border: none !important;
 }
@@ -870,15 +862,10 @@ ul.email li i {
   padding-top: 90px;
 }
 
-<<<<<<< HEAD
-.logo_footer {filter: brightness(2.0) saturate(0.5); /* Ajusta los valores según tus necesidades */
-
-=======
 .logo_footer {
   
 
   max-width: 400px;
->>>>>>> bafbfaf65cd6d61c6a9020d89f7bc3558e1f908f
 }
 .newslatter_form {
   display: flex;
