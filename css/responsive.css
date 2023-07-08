@@ -146,6 +146,11 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
+
+  .clientsl_text p {
+    font-size: small;
+}
+  
   .imgLogoNavbar { 
     width: 200px;
 

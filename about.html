@@ -1,204 +1,442 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>hightech</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- awesome fontfamily -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--[if lt IE 9]>
+<html lang="es">
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>Nahuel Baudino Guitarra & Canto</title>
+    <meta
+      name="keywords"
+      content="Aprender Canto, aprender guitarra, musica, "
+    />
+    <meta
+      name="description"
+      content="Página y comunidad de aprendizaje online de Canto y Guitarra por el Profesor Nahuel Baudino."
+    />
+    <meta name="author" content="Nahuel Baudino" />
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- awesome fontfamily -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Seccion pricing -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout inner_page">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <!-- body -->
+  <body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- Header y Barra de Navegacion -->
+    <header>
+      <div class="header">
+        <div class="container-fluid">
+          <div class="row headerLogoBtns d_flex">
+            <div class="col-md-2 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logoinicio">
+                    <a href="index.html">
+                      <img
+                        src="/images/logo baudino.png"
+                        alt="Logo Nahuel Baudino"
+                        class="imgLogoNavbar"
+                      />
+
+                      <br />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-sm-9">
+              <nav class="navigation navbar navbar-expand-md navbar-dark">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarsExample04"
+                  aria-controls="navbarsExample04"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="videoteca.html">Videoteca</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row d_flex">
-                  <div class=" col-md-2 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
+    </header>
+    <!-- end header -->
+    <!-- CAROUSEL HERO SECTION  -->
+    <section
+      id="top_section"
+      class="banner_main d-flex align-items-center justify-content-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="carousel-caption relative">
+                  <div class="bluid">
+                    <h1>
+                      Soy <br />
+                      Nahuel <br />
+                     
+                    </h1>
+                    <p>
+                     Mi historia y experiencia en el mundo de la música.
+                     
+                    </p>
+                  
                   </div>
-                  <div class="col-md-8 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item">
-                                 <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="about.html">About</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="we_do.html">What we do</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="portfolio.html">Portfolio </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div>
-                  <div class="col-md-2 d_none">
-                     <ul class="email text_align_right">
-                        <li> <a href="Javascript:void(0)"> Login </a></li>
-                        <li> <a href="Javascript:void(0)"> <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"> </i></a> </li>
-                     </ul>
-                  </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
-      </header>
-      <!-- end header -->
-      <!-- about -->
-      <div class="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>About Company</h2>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-      <!-- end about -->
-      <!-- footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-3">
-                     <a class="logo_footer" href="index.html"> Nahuel Baudino</a>
-                  </div>
-                  <div class="col-md-9">
-                     <form class="newslatter_form">
-                        <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="subs_btn">Sbscribe Now</button>
-                     </form>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa helpful">
-                        <h3>Useful  Link</h3>
-                        <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="we_do.html">What we do</a></li>
-                           <li><a href="portfolio.html">Portfolio</a></li>
-                           <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa">
-                        <h3>News</h3>
-                        <ul>
-                           <li>It is a long established                            
-                           </li>
-                           <li>fact that a reader will                           
-                           </li>
-                           <li>be distracted by the                           
-                           </li>
-                           <li>readable content of a                              
-                           </li>
-                           <li>page when                          
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa">
-                        <h3>company</h3>
-                        <ul>
-                           <li>It is a long established                             
-                           </li>
-                           <li>fact that a reader will                            
-                           </li>
-                           <li>be distracted by the                          
-                           </li>
-                           <li>readable content of a                              
-                           </li>
-                           <li>page when                          
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa conta">
-                        <h3>contact Us</h3>
-                        <ul>
-                           <li> <a href="Javascript:void(0)"> <i class="fa fa-map-marker" aria-hidden="true"></i> Location
-                              </a>
-                           </li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i> Call +01 1234567890
-                              </a>
-                           </li>
-                           <li> <a href="Javascript:void(0)"> <i class="fa fa-envelope" aria-hidden="true"></i> demo@gmail.com
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+    </section>
+    <!-- end slider section -->
+
+    <section class="container pt-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-12 text-justify">
+          <h2 class="mb-5"><strong class="titlepage">¡Hola! Soy Nahuel Baudino</strong></h2>
+          <p>Soy un apasionado profesor de guitarra y canto en línea. Permíteme compartir contigo mi historia y experiencia en el mundo de la música.</p> <br>
+    
+          <p>Desde hace años, me dedico a la música y en 2014 obtuve mi título como profesor. En aquel entonces, ya era un guitarrista profesional y formaba parte activa de la escena musical. He tenido el honor de participar en conciertos de renombre a nivel nacional, incluyendo cuatro ediciones del prestigioso evento "Guitarras del Mundo". Asimismo, he tenido la oportunidad de realizar giras tanto en el país como en el extranjero, compartiendo mi música y conocimientos con diversas audiencias.</p>
+          <br>
+          <p>A lo largo de mi carrera, he tenido el privilegio de asistir a masterclass con reconocidos concertistas, entre ellos Berta Rojas, Eduardo Isaac, Victor Pellegrini, Ernesto Mendez, Victor Villadangos, Ricardo Cianferoni, y muchos otros. Estas experiencias enriquecedoras me han permitido crecer como músico y perfeccionar mi técnica en la guitarra.</p>
+          <br>
+          <p>Además, decidí ampliar mi formación académica y obtuve la Licenciatura en Composición en la UNC. Esto me ha brindado un profundo conocimiento de la teoría musical y la capacidad de crear música original, lo cual enriquece aún más mi enfoque como profesor.</p>
+          <br>
+          <p>Como profesor de guitarra y canto en línea, mi objetivo es ofrecerte clases personalizadas y divertidas que se adapten a tus necesidades y metas musicales. Tanto si eres un principiante absoluto como un músico experimentado, estaré encantado de ayudarte a desarrollar tus habilidades y alcanzar tus objetivos musicales.</p>
+          <br>
+          <p>Además, como guitarrista profesional y arreglista de la Orquesta Andrés Chazarreta, cuento con una amplia experiencia en el ámbito del canto. Si deseas mejorar tus habilidades vocales y explorar el mundo del canto, estaré encantado de guiarte en este emocionante viaje.</p>
+          <br>
+          <p>Te invito a unirte a mis clases en línea, donde juntos exploraremos el maravilloso mundo de la guitarra y el canto. Estoy entusiasmado por ser parte de tu desarrollo musical y ayudarte a descubrir todo tu potencial. ¡Empecemos esta aventura juntos!</p>
+        </div>
+        <div class="col-md-6">
+          <!-- Aquí puedes agregar las imágenes correspondientes -->
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!-- BLOG -->
+    <div class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="titlepage text_align_left">
+              <h2>Mi Blog</h2>
             </div>
-            <div class="copyright text_align_left">
-               <div class="container">
-                  <div class="row d_flex">
-                     <div class="col-md-6">
-                        <p>© 2020 All Rights Reserved.  <a href="https://html.design/"> Free Html Template</a></p>
-                     </div>
-                     <div class="col-md-6">
-                        <ul class="social_icon text_align_center">
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="ho_nf" class="portfolio_main text_align_left">
+              <figure>
+                <img src="images/guitarra1.JPG" alt="guitarra" />
+                <div class="portfolio_text">
+                  <div class="li_icon">
+                    <a href="www.blog.com.ar"> Ver</a>
                   </div>
-               </div>
+                  <h3>Aprender música aunque no vaya a ser profesional:</h3>
+                  <p>
+                    Los beneficios que nos genera el aprendizaje de la música ya
+                    sea en un instrumento o el canto son muchos. Ya que
+                    desarrollamos habilidades como el pensamiento lógico y
+                    creativo, a través del funcionamiento activo de los dos
+                    hemisferios cerebrales, el entrenamiento de la atención,
+                    sistematizar un plan y seguirlo metodológicamente.
+                  </p>
+                </div>
+              </figure>
             </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+          </div>
+          <div class="col-md-6">
+            <div id="ho_nf" class="portfolio_main text_align_left">
+              <figure>
+                <img src="images/guitarra2.JPG" alt="#" />
+                <div class="portfolio_text">
+                  <div class="li_icon">
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-search" aria-hidden="true"></i
+                    ></a>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-link" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                  <h3>La música, el lenguaje de las emociones:</h3>
+                  <p>
+                    Muchas veces nos pasa de adquirir y desarrollar habilidades
+                    intelectuales que son muy necesarias: La comprensión
+                    lectora, el cálculo matemático, la memoria, etc. También
+                    sucede que dejamos en segundo plano otra parte que nos hace
+                    humanos: el cómo nos sentimos y cómo lo expresamos, además
+                    de entenderlo introspectivamente así como en las personas
+                    que nos rodean.
+                  </p>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="ho_nf" class="portfolio_main text_align_left">
+              <figure>
+                <img src="images/canto1.JPG" alt="#" />
+                <div class="portfolio_text">
+                  <div class="li_icon">
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-search" aria-hidden="true"></i
+                    ></a>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-link" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                  <h3>El canto y la guitarra, un mundo de sensaciones:</h3>
+                  <p>
+                    Algo que tiene la música al escucharla es que nos genera
+                    internamente efectos emotivos y corporales (por ejemplo
+                    llanto, alegría o la piel erizada) por lo cual volvemos a
+                    repetir las canciones. Lo que no sabe quién nunca hizo
+                    música es que las mismas respuestas percibimos al momento de
+                    producir el sonido, Y DE MANERA MÁS INTENSA!! El motivo por
+                    el cuál tanto nos gusta escuchar música es el mismo por el
+                    que nos gusta realizarla: SENTIR UN MUNDO DE SENSACIONES.
+                  </p>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="ho_nf" class="portfolio_main text_align_left">
+              <figure>
+                <img src="images/canto2.JPG" alt="#" />
+                <div class="portfolio_text">
+                  <div class="li_icon">
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-plus-circle" aria-hidden="true"></i
+                    ></a>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-link" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                  <h3>La música nos identifica:</h3>
+                  <p>
+                    A lo largo de la historia la música acompañó los eventos
+                    sociales importantes: Casamientos, festejos, duelos
+                    (velorios) y hasta los simbolismos patrios (los Himnos de
+                    cada país). Tanto a nivel social como a nivel individual la
+                    música nos define porque llega a tocar las fibras más
+                    sensibles de nuestro ser, acompañándonos a lo largo y lo
+                    ancho en la vida… Los buenos y malos procesos, los momentos
+                    de festejos, los de tristeza, los de reflexión. Ya que es
+                    algo que tenemos tan en común porque me conecta con otras
+                    personas así como conmigo mismo es más que recomendable no
+                    privarme de aprender y vivir a fondo la experiencia.
+                  </p>
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <a class="read_more" href="portfolio.html">Ir al Blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end BLOGolio -->
+  
+  
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center pb-3">
+              <a class=" " href="index.html"
+                ><img
+                  src="images/logo baudino.png"
+                  class="logo_footer text-center"
+                  alt="#"
+              /></a>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="Informa helpful">
+                <h3>Navegación</h3>
+                <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="about.html">Sobre mí</a></li>
+                  <li><a href="we_do.html">Videoteca</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contactame</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="Informa">
+                <h3>Novedades</h3>
+                <ul>
+                  <li>
+                    Descuento especial: ¡Obtén un 20% de descuento en nuestra
+                    membresía anual! Accede a todos nuestros cursos, materiales
+                    exclusivos y eventos especiales.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="Informa">
+                <h3>Academia</h3>
+                <ul>
+                  <li>
+                    En nuestra academia de música, nos enfocamos en brindar una
+                    educación musical de calidad, fomentando la creatividad y el
+                    amor por la música en cada estudiante.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="Informa conta">
+                <h3>Contactame</h3>
+                <ul>
+                  <li>
+                    <a href="Javascript:void(0)">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Santiago del Estero | Argentina
+                    </a>
+                  </li>
+                  <li>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-phone" aria-hidden="true"></i> Call +54
+                      3854167745
+                    </a>
+                  </li>
+                  <li>
+                    <a href="Javascript:void(0)">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                      nahuelbaudino129@gmail.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text_align_left">
+          <div class="container">
+            <div class="row d_flex">
+              <div class="col-md-6">
+                <p>
+                  © 2020 All Rights Reserved.
+                  <a href="https://linkedin.com/cristianq3" target="_blank">
+                    Cristian Quiroga Web Design</a
+                  >
+                </p>
+              </div>
+              <div class="col-md-6">
+                <ul class="social_icon text_align_center">
+                  <li>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-instagram" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="Javascript:void(0)"
+                      ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
