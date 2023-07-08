@@ -55,6 +55,11 @@ File Name: responsive.css
   .we_box {
     padding: 15px;
   }
+  .we_box p {
+    font-size: x-small;
+  }
+
+
   .clientsl_text {
     padding: 25px;
   }

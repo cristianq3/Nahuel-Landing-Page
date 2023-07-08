@@ -406,12 +406,12 @@ ul.email li i {
   padding-bottom: 25px;
 }
 
-.banner_main .bluid p {
+ .bluid p {
   color: #fff;
   line-height: 25px;
   font-weight: 500;
   padding-bottom: 50px;
-  font-size: 7px;
+  font-size: 17px;
   text-shadow: 1px 1px 2px #000000;
 
 }
@@ -476,6 +476,7 @@ ul.email li i {
   padding-top: 25px;
   display: block;
   padding-bottom: 40px;
+  font-size: 14px;
 }
 
 .we_box .read_more {
