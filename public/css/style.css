@@ -1062,8 +1062,10 @@ body {
   --color-hover: #555;
 }
 
+
 .entry-title {
   background: #666666;
+  padding-top: 35px;
   height: 160px;
   position: relative;
   text-align: center;
@@ -1074,6 +1076,7 @@ body {
 
 .entry-title > h3 {
   background: #666666;
+  color: white;
   font-size: 20px;
   padding: 5px 0;
   text-transform: uppercase;
@@ -1084,7 +1087,7 @@ body {
 .entry-title .price {
   position: absolute;
   bottom: -25px;
-  background: #666666;
+  background: #dcbd4e;
   height: 95px;
   width: 95px;
   margin: 0 auto;
@@ -1094,13 +1097,13 @@ body {
   border-radius: 50px;
   border: 5px solid #fff;
   line-height: 80px;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .price span {
   position: absolute;
-  font-size: 9px;
+  font-size: 13px;
   bottom: -10px;
   left: 30px;
   font-weight: 400;
@@ -1173,7 +1176,7 @@ body {
 }
 
 .standard .price {
-  background: #666666;
+  background: #dcbd4e;
 }
 
 .ultimite .entry-title > h3 {
@@ -1185,5 +1188,5 @@ body {
 }
 
 .ultimite .price {
-  background: #666666;
+  background: #dcbd4e;
 }
