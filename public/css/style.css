@@ -369,7 +369,30 @@ ul.email li i {
   font-size: 19px;
 }
 
+/* CAROUSEL ABOut */
+.carousel-item {
+  object-fit: cover;
+
+  max-height: 40vh;
+  
+  width: 100%;
+  text-align: center;
+ ;
+  
+}
+
 /** banner_main **/
+#top_section2 {
+  background-image: url("../images/fotosnahuel/portadaabout.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  position: relative;
+  height: 100vh;
+  background-position: center;
+}
+
+
 
 #top_section {
   background-image: url("../images/banner.jpg");
@@ -1012,12 +1035,17 @@ ul.social_icon li a:hover {
 
 /*- - ener page css--*/
 
+.custom-img {
+  max-height: 300px; /* Ajusta este valor según tus preferencias */
+  width: 100%;
+  object-fit: cover;
+}
+
 /* PRICING TABLE /TABLA DE PRECIOS  */
 
 .pricingBody {
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-
+ 
   margin: 0 auto;
   display: flex;
   flex-direction: column;
