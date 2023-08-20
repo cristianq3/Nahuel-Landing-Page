@@ -373,13 +373,26 @@ ul.email li i {
 .carousel-item {
   object-fit: cover;
 
-  max-height: 40vh;
-  
+  max-height: 69vh;
+
   width: 100%;
   text-align: center;
- ;
-  
 }
+
+#carouselId .carousel-item  .carousel-caption {
+  text-shadow: 1px 1px 2px #000000;
+
+}
+
+/* academia musia */
+#top_section3 {
+  background-image: url("../images/fotosnahuel/academia.jpg");
+background-size: cover;
+margin-top: 7%;
+min-height: 95vh;
+background-position: 50%;
+}
+
 
 /** banner_main **/
 #top_section2 {
@@ -391,8 +404,6 @@ ul.email li i {
   height: 100vh;
   background-position: center;
 }
-
-
 
 #top_section {
   background-image: url("../images/banner.jpg");
@@ -1045,7 +1056,7 @@ ul.social_icon li a:hover {
 
 .pricingBody {
   font-size: 15px;
- 
+
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -1062,7 +1073,6 @@ body {
 #price {
   text-align: center;
   width: 100%;
-  
 }
 
 .plan {
@@ -1077,7 +1087,6 @@ body {
   min-width: 280px;
   max-width: 100%;
   position: relative;
-  
 }
 :root {
   --color-primary: #333333;
@@ -1089,7 +1098,6 @@ body {
   --color-text: #333;
   --color-hover: #555;
 }
-
 
 .entry-title {
   background: #666666;

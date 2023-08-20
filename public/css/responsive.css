@@ -152,6 +152,13 @@ File Name: responsive.css
 
 @media (max-width: 575px) {
 
+  #top_section3 {
+  
+margin-top: 20%;
+
+  min-height: 65vh;
+  background-position: 50%; }
+
   .clientsl_text p {
     font-size: small;
 }
