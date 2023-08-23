@@ -59,7 +59,6 @@ File Name: responsive.css
     font-size: x-small;
   }
 
-
   .clientsl_text {
     padding: 25px;
   }
@@ -85,12 +84,10 @@ File Name: responsive.css
     height: 700px;
   }
 
-  .imgLogoNavbar { 
-    height: 100%!important;
-
+  .imgLogoNavbar {
+    height: 100% !important;
   }
 
-  
   .d_none {
     display: none;
   }
@@ -151,29 +148,30 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
-
   #top_section3 {
-  
-margin-top: 20%;
+    margin-top: 20%;
 
-  min-height: 65vh;
-  background-position: 50%; }
+    min-height: 65vh;
+    background-position: 50%;
+  }
+
+  .clientsl_text {
+    padding-top: 0px;
+  }
 
   .clientsl_text p {
-    font-size: small;
-}
-  
-  .imgLogoNavbar { 
-    width: 200px;
+    font-size: x-small;
+    padding-top: 20px;
+    line-height: 20px;
+  }
 
+  .imgLogoNavbar {
+    width: 200px;
   }
 
   .logo_footer {
-  
-
     max-width: 69%;
   }
-
 
   .header {
     padding: 37px 0px;
@@ -220,7 +218,6 @@ margin-top: 20%;
   .portfolio_text p {
     font-size: 12px;
     display: none;
-   
   }
   .main_form .send_btn {
     margin-bottom: 40px;
