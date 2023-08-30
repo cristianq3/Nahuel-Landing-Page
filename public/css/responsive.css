@@ -148,6 +148,19 @@ File Name: responsive.css
 }
 
 @media (max-width: 575px) {
+#carouselId{
+  min-height: 50vh !important;
+}
+
+.we_box h3 {
+  font-size: 16px;
+}
+
+.we_box p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
   #top_section3 {
     margin-top: 20%;
 
