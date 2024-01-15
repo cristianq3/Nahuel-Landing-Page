@@ -1,0 +1,38 @@
+[debug] [2024-01-15T03:09:16.630Z] ----------------------------------------------------------------------
+[debug] [2024-01-15T03:09:16.632Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\crist\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-01-15T03:09:16.633Z] CLI Version:   12.7.0
+[debug] [2024-01-15T03:09:16.633Z] Platform:      win32
+[debug] [2024-01-15T03:09:16.633Z] Node Version:  v18.16.1
+[debug] [2024-01-15T03:09:16.634Z] Time:          Mon Jan 15 2024 00:09:16 GMT-0300 (hora estándar de Argentina)
+[debug] [2024-01-15T03:09:16.634Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-15T03:09:16.639Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-01-15T03:09:16.769Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-15T03:09:16.769Z] > authorizing via signed-in user (cristianq3@gmail.com)
+[debug] [2024-01-15T03:09:16.770Z] [iam] checking project nahuelbaudino-web for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-15T03:09:16.771Z] > refreshing access token with scopes: []
+[debug] [2024-01-15T03:09:16.772Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-15T03:09:16.772Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-15T03:09:17.044Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-15T03:09:17.044Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-15T03:09:17.060Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/nahuelbaudino-web:testIamPermissions [none]
+[debug] [2024-01-15T03:09:17.061Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/nahuelbaudino-web:testIamPermissions x-goog-quota-user=projects/nahuelbaudino-web
+[debug] [2024-01-15T03:09:17.061Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nahuelbaudino-web:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-15T03:09:17.496Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-01-15T03:09:17.496Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-01-15T03:09:18.651Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/nahuelbaudino-web:testIamPermissions 200
+[debug] [2024-01-15T03:09:18.651Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/nahuelbaudino-web:testIamPermissions {}
+[debug] [2024-01-15T03:09:18.652Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project nahuelbaudino-web:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-01-15T03:09:18.653Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nahuelbaudino-web [none]
+[debug] [2024-01-15T03:09:19.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nahuelbaudino-web 403
+[debug] [2024-01-15T03:09:19.061Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nahuelbaudino-web {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-01-15T03:09:19.062Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-01-15T03:09:19.347Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\crist\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\crist\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project nahuelbaudino-web. Please make sure the project exists and your account has permission to access it.
